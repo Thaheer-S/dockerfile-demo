@@ -1,0 +1,20 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h2 {
+  color: #333;
+}
+
+.form-control {
+  border-radius: 25px;
+}
+
+.btn-block {
+  border-radius: 25px;
+}
