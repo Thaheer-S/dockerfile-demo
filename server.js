@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   res.render('login');
 });
 
-// Listen for incoming requests
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+// Listen for incoming requests on all interfaces
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running at http://0.0.0.0:${port}`);
 });
